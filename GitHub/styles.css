@@ -1,0 +1,15 @@
+body {
+    background-image:url("images/teletubbies_house_background.jpg");
+    background-size:120%
+}
+div.bando{
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    position: fixed;
+}
+
+img.logo{
+    height:100px;
+
+}
