@@ -1,8 +1,10 @@
+
 body {
     background-image:url("images_styles/teletubbie_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
+    resize: both;
 }
 div.bando{
     margin: auto;
@@ -14,18 +16,50 @@ img.logo{
     height:100px;
 
 }
+h1{
+  padding: 10px;
+  display: block;
+  background-color: rgba(128, 128, 128, 0.458);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: monospace;
+  display: flex;
+  float: left;
+  margin-top: 500px;
+  display: unset;
+  position: relative;
+  visibility: hidden;
+
+}
+h1.character{
+  margin-left: 175px;
+}
+img.character:hover+.character{
+  visibility: visible;
+}
+h1.episod{
+  margin-left: 275px;
+}
+h1.house{
+  margin-left: 325px;
+}
+h1.idk{
+  margin-left: 350px;
+}
 img.megaphone{
     height: 500px;
-    margin-top: 500px;
     size-adjust: cover;
     transition: transform 0.5s ease;
     animation: up 4s alternate;
+    margin-left: 50px;
+    margin-top: -70px;
 }
 img.megaphone:hover{
   transform: scale(1.05);
 }
 audio{
-  margin-bottom: 100px;
+  margin: 0;
 }
 @keyframes up {
     0% {
