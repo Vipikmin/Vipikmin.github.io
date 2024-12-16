@@ -26,34 +26,29 @@ h1{
   font-family: monospace;
   display: flex;
   float: left;
-  margin-top: 500px;
-  display: unset;
+  margin-top: 335px;
   position: relative;
-  visibility: hidden;
 
 }
 h1.character{
-  margin-left: 175px;
-}
-img.character:hover+.character{
-  visibility: visible;
+  margin-left: 85px;
 }
 h1.episod{
-  margin-left: 275px;
+  margin-left: 210px;
 }
 h1.house{
-  margin-left: 325px;
+  margin-left: 245px;
 }
-h1.idk{
-  margin-left: 350px;
+h1.info{
+  margin-left: 270px;
 }
 img.megaphone{
     height: 500px;
     size-adjust: cover;
     transition: transform 0.5s ease;
     animation: up 4s alternate;
-    margin-left: 50px;
-    margin-top: -70px;
+    margin-left: -30px;
+    margin-top: -60px;
 }
 img.megaphone:hover{
   transform: scale(1.05);
