@@ -16,20 +16,37 @@ img.logo{
 
 }
 img.megaphone{
-    height: 500px;
+    height: 350px;
     size-adjust: cover;
     transition: transform 0.5s ease;
     animation: up 4s alternate;
     margin-left: -30px;
-    margin-top: -60px;
+    margin-top: 10px;
 }
 img.megaphone:hover{
   transform: scale(1.05);
 }
+div.dipsy:hover+img.megaphone{
+  visibility: visible;
+}
 audio{
   margin: 0;
 }
-@keyframes up {
+table,tr,th{
+  border: black solid;
+  border-collapse: collapse;
+  height: 150px;  
+  width: 1250px;
+}
+div.dipsy{
+  background-color: rgba(128, 128, 128, 0.458);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 185px;
+  visibility: hidden;
+}
+@keyframes up {   
     0% {
       transform: translateY(200px);
     }
