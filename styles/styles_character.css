@@ -44,7 +44,7 @@ div.dipsy{
   border-radius: 10px;
   margin-top: 10px;
   margin-left: 185px;
-  visibility: hidden;
+  visibility: visible;
 }
 @keyframes up {   
     0% {

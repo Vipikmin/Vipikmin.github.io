@@ -16,39 +16,48 @@ img.logo{
     height:100px;
 
 }
-h1{
-  padding: 10px;
-  display: block;
+div{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: -3px;
+  padding-bottom: -3px;
   background-color: rgba(128, 128, 128, 0.458);
-  color: rgb(255, 255, 255);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  font-family: monospace;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
   display: flex;
   float: left;
-  margin-top: 335px;
+  margin-top: 400px;
   position: relative;
-
+  text-align: center;
 }
-h1.character{
-  margin-left: 85px;
+h1{
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
 }
-h1.episod{
-  margin-left: 210px;
+div.character{
+  margin-left: 75px;
 }
-h1.house{
-  margin-left: 245px;
+div.character:hover+div.bando{
+  background-color: aqua;
 }
-h1.info{
-  margin-left: 270px;
+div.episod{
+  margin-left: 160px;
+}
+div.house{
+  margin-left: 205px;
+}
+div.info{
+  margin-left: 225px;
 }
 img.megaphone{
-    height: 500px;
+    height: 450px;
     size-adjust: cover;
     transition: transform 0.5s ease;
     animation: up 4s alternate;
     margin-left: -30px;
-    margin-top: -60px;
+    margin-top: -30px;
 }
 img.megaphone:hover{
   transform: scale(1.05);
