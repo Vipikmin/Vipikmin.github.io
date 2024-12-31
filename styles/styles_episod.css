@@ -16,8 +16,112 @@ img.logo{
     height:100px;
 
 }
-div.all_episod{
+div{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: -3px;
+  padding-bottom: -3px;
+  background-color: rgba(128, 128, 128, 0.458);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+  display: flex;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+nav{
     background-color: rgba(145, 145, 145, 0.705);
-    margin-left: 200px;
+    margin-left: 95px;
     border-radius: 10px;
+    float: left;
+    color: white;
+    font-family: monospace;
+}
+nav.all_episods1{
+    margin-left: 200px;
+}
+.all_episods1 .saison1 {
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.all_episods1 .saison1 ul {
+	background-color: rgba(145, 145, 145, 0.705);
+    display: none;
+    height: 550px;
+    overflow-y: scroll;
+}
+.all_episods1 .saison1:hover ul {
+	display: block;
+    margin-right: 0px;
+}
+.all_episods2 .saison2 {
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.all_episods2 .saison2 ul {
+	background-color: rgba(145, 145, 145, 0.705);
+    display: none;
+    height: 550px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.all_episods2 .saison2:hover ul {
+	display: block;
+}
+.all_episods3 .saison3 {
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.all_episods3 .saison3 ul {
+	background-color: rgba(145, 145, 145, 0.705);
+    display: none;
+    height: 550px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.all_episods3 .saison3:hover ul {
+	display: block;
+}
+.all_episods4 .saison4 {
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.all_episods4 .saison4 ul {
+	background-color: rgba(145, 145, 145, 0.705);
+    display: none;
+    height: 550px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.all_episods4 .saison4:hover ul {
+	display: block;
+}
+.all_episods5 .saison5 {
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.all_episods5 .saison5 ul {
+	background-color: rgba(145, 145, 145, 0.705);
+    display: none;
+    height: 550px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.all_episods5 .saison5:hover ul {
+	display: block;
 }

@@ -39,7 +39,7 @@ h1{
 div.character{
   margin-left: 75px;
 }
-div.character:hover+div.bando{
+.bando .logo:hover h1{
   background-color: aqua;
 }
 div.episod{
@@ -59,7 +59,7 @@ img.megaphone{
     margin-left: -30px;
     margin-top: -30px;
 }
-img.megaphone:hover{
+img.megaphone:hover {
   transform: scale(1.05);
 }
 audio{
