@@ -1,0 +1,109 @@
+body {
+    background-image:url("images_styles/tubby_custard_machine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    resize: both;
+}
+div.bando{
+    margin: auto;
+    background-color: rgba(145, 145, 145, 0.705);
+    border-radius: 10px;
+    position: fixed;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -3px;
+    padding-bottom: -3px;
+}
+img.logo{
+    height:100px;
+    margin-left: 15px;
+}
+div{
+    background-color: rgba(128, 128, 128, 0.458);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+
+}
+h1{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s ease;
+    animation: up 4s alternate;
+}
+button.arrowl,button.arrowr,button.arrowc{
+    position: relative;
+    transition: transform 0.5s ease;
+    animation: up 4s alternate;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.458);
+
+}
+img.toast{
+    width: 60px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+img.custard{
+    width: 60px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+img.bed{
+    width: 60px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+button.arrowl:hover,button.arrowr:hover,button.arrowc:hover{
+    transform: scale(1.05);
+}
+html:has(button.arrowl:focus) body {
+    background-image:url("images_styles/tubby_toast_machine.png");
+}
+html:has(button.arrowl:focus) iframe.toast {
+    visibility: visible;
+}
+html:has(button.arrowl:focus) iframe.custard {
+    visibility: hidden;
+}
+html:has(iframe.toast:hover) body {
+    background-image:url("images_styles/tubby_toast_machine.png");
+}
+html:has(iframe.toast:hover) iframe.toast {
+    visibility: visible;
+}
+html:has(iframe.toast:focus) iframe.custard {
+    display: none;
+}
+html:has(button.arrowr:focus) body {
+    background-image:url("images_styles/tubby_bed.png");
+}
+html:has(button.arrowr:focus) iframe.bed {
+    visibility: visible;
+}
+html:has(button.arrowr:focus) iframe.custard {
+    visibility: hidden;
+}
+html:has(iframe.bed:hover) body {
+    background-image:url("images_styles/tubby_bed.png");
+}
+html:has(iframe.bed:hover) iframe.bed {
+    visibility: visible;
+}
+html:has(iframe.bed:focus) iframe.custard {
+    display: none;
+}
+iframe{
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: absolute
+    
+}
+iframe.toast,iframe.bed{
+    visibility: hidden;
+}
