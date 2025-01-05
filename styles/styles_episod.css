@@ -34,7 +34,7 @@ nav{
     margin-left: 95px;
     border-radius: 10px;
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: monospace;
 }
 nav.all_episods1{
@@ -50,7 +50,7 @@ nav.all_episods1{
 .all_episods1 .saison1 ul {
 	background-color: rgba(145, 145, 145, 0.705);
     display: none;
-    height: 550px;
+    height: 645px;
     overflow-y: scroll;
 }
 .all_episods1 .saison1:hover ul {
@@ -67,7 +67,7 @@ nav.all_episods1{
 .all_episods2 .saison2 ul {
 	background-color: rgba(145, 145, 145, 0.705);
     display: none;
-    height: 550px;
+    height: 645px;
     overflow-y: scroll;
     border-radius: 10px;
 }
@@ -84,7 +84,7 @@ nav.all_episods1{
 .all_episods3 .saison3 ul {
 	background-color: rgba(145, 145, 145, 0.705);
     display: none;
-    height: 550px;
+    height: 645px;
     overflow-y: scroll;
     border-radius: 10px;
 }
@@ -101,7 +101,7 @@ nav.all_episods1{
 .all_episods4 .saison4 ul {
 	background-color: rgba(145, 145, 145, 0.705);
     display: none;
-    height: 550px;
+    height: 645px;
     overflow-y: scroll;
     border-radius: 10px;
 }
@@ -118,7 +118,7 @@ nav.all_episods1{
 .all_episods5 .saison5 ul {
 	background-color: rgba(145, 145, 145, 0.705);
     display: none;
-    height: 550px;
+    height: 645px;
     overflow-y: scroll;
     border-radius: 10px;
 }

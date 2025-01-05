@@ -6,45 +6,154 @@ body {
     resize: both;
 }
 div.bando{
-    margin: auto;
-    background-color: rgba(145, 145, 145, 0.705);
-    border-radius: 10px;
-    position: fixed;
+  margin: auto;
+  background-color: rgba(145, 145, 145, 0.705);
+  border-radius: 10px;
+  position: fixed;
 }
 img.logo{
-    height:100px;
+  height:100px;
 
 }
-img.megaphone{
-    height: 350px;
-    size-adjust: cover;
-    transition: transform 0.5s ease;
-    animation: up 4s alternate;
-    margin-left: -30px;
-    margin-top: 10px;
+div{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: -3px;
+padding-bottom: -3px;
+background-color: rgba(128, 128, 128, 0.458);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+display: flex;
+float: left;
+position: relative;
+text-align: center;
 }
-img.megaphone:hover{
-  transform: scale(1.05);
+img.megaphone_tinkywinky,img.megaphone_dipsy,img.megaphone_laalaa,img.megaphone_po{
+  height: 425px;
+  size-adjust: cover;
+  transition: transform 0.5s ease;
+  animation: up 4s alternate;
+  margin-left: -30px;
+  margin-top: 10px;
 }
-div.dipsy:hover+img.megaphone{
-  visibility: visible;
+img.megaphone_tinkywinky:hover{
+transform: scale(1.05);
+}
+img.megaphone_dipsy:hover{
+transform: scale(1.05);
+}
+img.megaphone_laalaa:hover{
+transform: scale(1.05);
+}
+img.megaphone_po:hover{
+transform: scale(1.05);
 }
 audio{
   margin: 0;
 }
-table,tr,th{
+table,tr,td,th{
   border: black solid;
   border-collapse: collapse;
-  height: 150px;  
-  width: 1250px;
+  height: 60px;  
+  width: 1000px;
+}
+table.dispy,tr.dipsy,th.dipsy{
+  border: black solid;
+  border-collapse: collapse;
+  height: 60px;  
+  width: 400px;
+  margin-right: -105px;
 }
 div.dipsy{
-  background-color: rgba(128, 128, 128, 0.458);
+  background-color: rgba(128, 128, 128, 0.699);
   padding: 10px;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-left: 185px;
+  margin-top: 0px;
   visibility: visible;
+  margin-left: 210px;
+  display: block;
+  position: absolute;
+  visibility: hidden;
+}
+div.dipsy:hover{
+  visibility: visible;
+}
+body:has(img.megaphone_dipsy:hover) div.dipsy {
+  visibility: visible;
+}
+img.dipsy{
+  height: 300px;
+}
+img.dipsy_hat{
+  height: 100px;
+}
+table.tinky_winky,tr.tinky_winky,th.tinky_winky{
+  border: black solid;
+  border-collapse: collapse;
+  height: 60px;  
+  width: 400px;
+  margin-right: -93px;
+}
+div.tinky_winky{
+  background-color: rgba(128, 128, 128, 0.699);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 0px;
+  visibility: visible;
+  margin-left: 210px;
+  display: block;
+  position: absolute;
+  visibility: hidden;
+}
+div.tinky_winky:hover{
+  visibility: visible;
+}
+body:has(img.megaphone_tinkywinky:hover) div.tinky_winky {
+  visibility: visible;
+}
+img.tinky_winky{
+  height: 300px;
+}
+img.tinky_winky_bag{
+  height: 100px;
+}
+img.tinky_winky_actor{
+  height: 150px;
+}
+table.laalaa,tr.laalaa,th.laalaa{
+  border: black solid;
+  border-collapse: collapse;
+  height: 60px;  
+  width: 400px;
+  margin-right: -130px;
+}
+div.laalaa{
+  background-color: rgba(128, 128, 128, 0.699);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 0px;
+  visibility: visible;
+  margin-left: 210px;
+  display: block;
+  position: absolute;
+  visibility: hidden;
+}
+div.laalaa:hover{
+  visibility: visible;
+}
+body:has(img.megaphone_laalaa:hover) div.laalaa {
+  visibility: visible;
+}
+img.laalaa{
+  height: 300px;
+  margin-left: -70px;
+  margin-right: -70px;
+}
+img.laalaa_ball{
+  height: 100px;
+}
+img.laalaa_actor{
+  height: 150px;
 }
 @keyframes up {   
     0% {
@@ -110,4 +219,39 @@ div.dipsy{
     100% {
       transform: translateY(0px);
     }
-  }
+}
+table.po,tr.po,th.po{
+  border: black solid;
+  border-collapse: collapse;
+  height: 60px;  
+  width: 400px;
+  margin-right: -150px;
+}
+div.po{
+  background-color: rgba(128, 128, 128, 0.699);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 0px;
+  visibility: visible;
+  margin-left: 210px;
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+div.po:hover{
+  visibility: visible;
+}
+body:has(img.megaphone_po:hover) div.po {
+  visibility: visible;
+}
+img.po{
+  height: 300px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+img.po_bike{
+  height: 100px;
+}
+img.po_actor{
+  height: 150px;
+}

@@ -37,26 +37,23 @@ h1{
   position: relative;
 }
 div.character{
-  margin-left: 75px;
-}
-.bando .logo:hover h1{
-  background-color: aqua;
+  margin-left: 57px;
 }
 div.episod{
-  margin-left: 160px;
+  margin-left: 145px;
 }
 div.house{
-  margin-left: 205px;
+  margin-left: 175px;
 }
 div.info{
-  margin-left: 225px;
+  margin-left: 215px;
 }
 img.megaphone{
     height: 450px;
     size-adjust: cover;
     transition: transform 0.5s ease;
     animation: up 4s alternate;
-    margin-left: -30px;
+    margin-left: -50px;
     margin-top: -30px;
 }
 img.megaphone:hover {
